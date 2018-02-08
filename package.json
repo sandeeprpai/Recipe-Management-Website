@@ -1,0 +1,35 @@
+{
+  "name": "expressmongoserver",
+  "version": "1.0.0",
+  "description": "This directory contains two express servers: * AppServer.js - Combined Node/Express web server w/ Mongo Access * Server.js - Encapsulated Node/Express web server w/ Mongo Access",
+  "main": "Server.js",
+  "dependencies": {
+  "@types/express": "*",
+    "@types/mongodb": "*",
+    "@types/mongoose": "*",
+    "@types/node": "*",
+    "@types/passport": "^0.3.3",
+    "assert": "^1.4.1",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
+    "mocha": "^3.4.2",
+    "mongodb": "^2.2.25",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "path": "^0.12.7",
+    "q": "^1.5.0",
+    "typescript": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
